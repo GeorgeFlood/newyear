@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+body {
+    margin-left: 10rem;
+    background-image: url(newyear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.container {
+    text-shadow: .1rem .1rem .2rem lightyellow;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 3rem;
+    color: rgb(241, 240, 148);
+}
